@@ -1,0 +1,166 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.left{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(../image/Moi\ \(Moyenne\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    color: whitesmoke;
+}
+
+#header_left{
+    display: flex;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: .9em;
+}
+
+#tete_dev{
+    padding-top: 15px;
+}
+
+.presentation{
+    text-align: end;
+    background: rgba(197, 196, 196, 0.409);
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#text_presentation{
+    font-style: italic;
+}
+
+span{
+    font-style:italic ;
+    font-size: 0.6em;
+}
+
+
+.nav{
+    text-align: end;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 15px;
+    font-size: 1.1em;
+    margin-bottom: 0px;
+}
+
+.right{
+    background-color: rgb(243, 239, 239);
+}
+
+#header_right{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+ .article_right{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 5px;
+ }
+
+ article{
+    background:white;
+    text-align: center;
+    margin:5px;
+    border-radius: 10px;
+
+ }
+
+ .langage{
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align:center;
+    margin-left: 30px;
+    background: lightgreen;
+    width: 20%;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    text-transform:capitalize;
+    
+ }
+
+ .experience{
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align:center;
+    margin-left: 30px;
+    background: lightcoral;
+    width: 20%;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+
+ .chargement{
+    width: 70%;
+    height: 20px;
+    border: black 3px solid;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    background: red;
+ }
+
+h3{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+article img{
+    margin: 25px ;
+}
+
+.acquishtml{
+width: 90%;
+height: 99%;
+background: green;
+border-radius: 15px 0px 0px 15px;
+}
+
+.acquiscss{
+    width: 75%;
+    height: 99%;
+    background: green;
+    border-radius: 15px 0px 0px 15px; 
+}
+
+.acquisjs{
+    width: 10%;
+    height: 99%;
+    background: green;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.acquisphp{
+    width: 10%;
+    height: 99%;
+    background: green;
+    border-radius: 15px 0px 0px 15px;
+}
+
+article ul{
+    font-size: 1.3em;
+    list-style: none;
+    text-align: start;
+}
