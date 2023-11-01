@@ -3,118 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github waiting</title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Lucas Depoot</title>
 </head>
 <body>
     <div class="container">
-        <section class="left">
-
-            <header id="header_left">
-                <img id="tete_dev" height="100px" src="../image/pngegg.png" alt="developpeur logo">
-                <h1>Lucas <br>Depoot <br>En attendant le vrai portfolio</h1>
-            </header>
-
-            <div class="presentation">
-                <h2>A propos de moi <span> et de mes motivations</span></h2>
-                <p id="text_presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aspernatur error impedit iste deleniti tenetur numquam, nisi exercitationem quibusdam. Fuga tenetur veniam earum libero nihil rerum eveniet alias nostrum omnis.</p>
+        <header class="greenBorder">
+        <!--srcset  permettra de choisir l'image en fonction du responsive (voir doc)-->
+            <img class="image headerimg" src="img/headerpicturenoglass.jpeg" alt="picture of me" srcset="">
+            <div>
+                <h1 class="greenTextLight">Depoot Lucas</h1>
+                <h2>Développeur Web</h4>
+            </div>
+        </header>
+        <div class="main">
+            <div class="left greenBorder">
+                <img class="image leftimg" src="img/aboutpicture.jpg" alt="picture of me" srcset="">
+                <ul class="leftUl greenBorder">
+                    <li>
+                        <a  href ="#"><i class="fa-brands fa-linkedin"></i></a><br>
+                        <a  href="#"> Linkedin</a>
+                    </li>
+                    <li>
+                        <a  href ="#"><i class="fa-brands fa-github"></i></a><br> 
+                        <a  href="#"> Github</a>
+                    </li>
+                    <li>
+                        <a  href ="#"><i class="fa-solid fa-envelope"></i></a><br>
+                        <a  href="#"></i> lucasdepoot@gmail.com</a>
+                    </li>
+                </ul> 
+                
+                <div class="about">
+                    <h3 class="greenTextLight"> A propos de moi:</h2> 
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus animi sed perferendis quisquam ut molestias quam harum saepe? Incidunt sit nostrum iste praesentium debitis ut quidem nesciunt rem unde vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla, minus voluptate architecto id, excepturi
+                    </p>
+                </div>
             </div>
 
-            <footer>
-                <ul class="nav">
-                    <li><a class="nav" href="https://github.com/LucasDepoot">Github</a></li>
-                    <li><a class="nav" href="www.linkedin.com/in/lucas-depoot-40b900291">Linkedin</a></li>
-                    <li><a class="nav" href="#">Contact</a></li>
-                </ul>
-            </footer>
+            <div class="content">
 
-        </section>
+                <div class="choiceColor greenItemLight">
+                    <div class="colored jade"></div>
+                    <div class="colored crimson"></div>
+                    <div class="colored amber"></div>
+                </div> 
 
-        <section class="right">
-
-            <header id="header_right">
-                <h2>Découvrez mes compétences</h2>
-            </header>
-
-            <div class="article_right">
-                <article>
-                    <p class="langage">Langage</p>
-                    <h3>html</h3>    
-                    <div class="chargement">
-                        <div class="acquishtml">
-                        </div>
+                <div class="choiceMode greenItemLight">
+                    <div class="colored darkModeChoice jade">
+                        <i class="fa-solid fa-sun"></i>
                     </div>
-                    <img width="100px" src="../image/HTML5.jpg" alt="Logo html 5">
+                </div>
 
-                </article>
+                <div class="cursor greenBgLight">
+                    <p>&#9650;</p>
+                    <p id="arrow">&#9660;</p>
+                </div>
 
-                <article>
-                    <p class="langage">Langage</p>
-                    <h3>css</h3>
-                    
-                    
-                    <div class="chargement">
-                        <div class="acquiscss">
-                        </div>
-                    </div>
-                    <img width="100px" src="../image/CSS3.jpg" alt="Logo CSS3">
-
-                </article>
-
-                <article>
-                    <p class="langage">Langage</p>
-                    <h3>javascript</h3>
-                    
-                    
-                    <div class="chargement">
-                        <div class="acquisjs"></div>
-                        <div class="non_acquisjs"></div>
-                    </div>
-                    <img height="140px" src="../image/JS.png" alt="Logo Javascript">
-
-                </article>
-
-                <article>
-                    <p class="langage">Langage</p>
-                    <h3>php</h3>
-                    
-                    <div class="chargement">
-                        <div class="acquisphp"></div>
-                        <div class="non_acquisphp"></div>
-                    </div>
-                    <img height="140px" src="../image/PHP.png" alt="Logo PHP">
-                </article>
-
-                <article>
-                    <p class="experience">Expériences</p>
-                    <h3>Curiculum vitae</h3>
-                    
-                    
+                <div class="card greenBorder greenBgLight">
+                    <h3 class="titleCard greenTextLight">Hard skills</h2>    
                     <ul>
-                        <li>Corsil <span>Réparation de bateaux</span></li>
-                        <li>LISI aerospace <span>Conducteur de machine à commande numérique</span></li>
-                        <li>Ecole O'clock <span>Formation developpeur Web</span></li>
+                        
+                        <li>
+                            <i class="fa-brands fa-square-js"></i><br>
+                            Javascript
+                        </li>
+                        <p>Essentiel pour créer des sites web interactifs, gérant l'interactivité et la manipulation du contenu. Il permets d'ajouter des fonctionnalités dynamiques aux pages web en reagissant aux actions des utilisateurs</p>
+                        <li>
+                            <i class="fa-brands fa-php"></i><br>
+                            PHP
+                        </li>
+                        <p>Principalement utilisé côté serveur pour créer des sites web dynamiques en traitant les demandes des utilisateurs, interagissant avec les bases de données et générant des pages web dynamiques</p>
+                        
+                        <li>
+                            <i class="fa-solid fa-database"></i><br>
+                            MySQL
+                        </li>
+                        <p>Système de gestion de base de données relationnelle, il stocke, gère et récupère des données. </p>
                     </ul>
-                    <img height="140px" src="../image/cv.png" alt="Curiculum vitae">
-
-                </article>
-
-                <article>
-                    <p class="experience">Experiences</p>
-                    <h3>projet</h3>
-                    
-                    
+                </div>
+                <div class="card greenBorder greenBgLight">
+                    <h3 class="titleCard greenTextLight">Soft skills</h2>
                     <ul>
-                        <li><a href="#">A venir</a></li>
-                        <li><a href="#">A venir</a></li>
-                        <li><a href="#">A venir</a></li>
+                        <li>
+                            <i class="fa-solid fa-people-group"></i><br>
+                            Travail d'équipe
+                        </li>
+                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
+                        <li>
+                            <i class="fa-solid fa-puzzle-piece"></i><br>
+                            Adaptabilité
+                        </li>
+                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever divers défis et de trouver des solutions dans mon travail.</p>
+                        <li>
+                            <i class="fa-solid fa-spa"></i><br>
+                            Gestion du stress
+                        </li>
+                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant ainsi des livraisons à temps malgré des échéances courtes.</p>
                     </ul>
-                    <img height="140px" src="../image/projet.png" alt="Projet">
-                </article>
+                </div>
+            </div>  
+        </div>
+        <footer class="greenBorder">
+            <div class="contact">
+                <a  href="#">Contactez moi : lucasdepoot@gmail.com</a>
             </div>
-
-        </section>
+        </footer>
     </div>
+    <script src="https://kit.fontawesome.com/e3be26a94a.js" crossorigin="anonymous"></script>
+    <script src="javascript/darkMode.js"></script>
 </body>
 </html>

@@ -1,166 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Shadows+Into+Light&display=swap');
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+body{
+    overflow: hidden;
+    overflow-y: hidden;
 }
-
-.left{
-    box-sizing: border-box;
+.container{
     height: 100vh;
-    background-image: url(../image/Moi\ \(Moyenne\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
-    top: 0px;
-    padding: 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
-    color: whitesmoke;
+    box-sizing: border-box;
 }
 
-#header_left{
+header{
+    max-height: 25%;
+    box-sizing: border-box;
     display: flex;
-    text-transform: uppercase;
-    line-height: 30px;
-    font-size: .9em;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-bottom: 4px solid;
+    padding: 1em;
 }
 
-#tete_dev{
-    padding-top: 15px;
+.headerimg{
+    margin-right: 3em;
 }
 
-.presentation{
-    text-align: end;
-    background: rgba(197, 196, 196, 0.409);
-    padding: 20px;
+.image{
+    border-radius: 50%;
+}
+h1{
+    font-size: 5em;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+h2{
+    font-size: 3em;
+    margin:1em 0;;
+}
+h3{
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+.main{
+    display: flex;
+    flex: 1;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 25%;
+    border-right: 4px solid;
+    padding: 1em;
     font-size: 1.2em;
 }
-
-#text_presentation{
-    font-style: italic;
+.leftUl{
+    margin-top: 1em;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 0.5em 2em;  
 }
-
-span{
-    font-style:italic ;
-    font-size: 0.6em;
+.left li{
+    margin-bottom: 5px;
 }
-
-
-.nav{
-    text-align: end;
+a{
     text-decoration: none;
-    color: whitesmoke;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 15px;
-    font-size: 1.1em;
-    margin-bottom: 0px;
+    color: black;
+}
+.left p{
+    text-align: left;
+}
+.leftimg{
+   max-width: 60%;
 }
 
-.right{
-    background-color: rgb(243, 239, 239);
-}
-
-#header_right{
-    font-size: 1.3em;
-    text-transform: uppercase;
-    padding: 10px;
-}
- .article_right{
-    display: grid;
-    grid-template-columns: repeat(2 ,1fr);
-    grid-template-rows: repeat(3,1fr);
-    padding: 5px;
- }
-
- article{
-    background:white;
-    text-align: center;
-    margin:5px;
-    border-radius: 10px;
-
- }
-
- .langage{
-    box-sizing: border-box;
-    border-radius: 20px;
-    text-align:center;
-    margin-left: 30px;
-    background: lightgreen;
-    width: 20%;
-    padding: 5px;
-    display: block;
-    font-weight: bold;
-    text-transform:capitalize;
-    
- }
-
- .experience{
-    box-sizing: border-box;
-    border-radius: 20px;
-    text-align:center;
-    margin-left: 30px;
-    background: lightcoral;
-    width: 20%;
-    padding: 5px;
-    display: block;
-    font-weight: bold;
-    text-transform: capitalize;
- }
-
- .chargement{
-    width: 70%;
-    height: 20px;
-    border: black 3px solid;
-    margin: 0 auto;
-    border-radius: 15px;
-    display: flex;
-    background: red;
- }
-
-h3{
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 0;
-}
-
-article img{
-    margin: 25px ;
-}
-
-.acquishtml{
-width: 90%;
-height: 99%;
-background: green;
-border-radius: 15px 0px 0px 15px;
-}
-
-.acquiscss{
+.content{
+    padding: 1em;
     width: 75%;
-    height: 99%;
-    background: green;
-    border-radius: 15px 0px 0px 15px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.acquisjs{
-    width: 10%;
-    height: 100%;
-    background: green;
-    border-radius: 15px 0px 0px 15px;
+.card{
+    margin-left: 1em;
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+    width: 450px;
+    height: 465px;
+    z-index: 1;
 }
-
-.acquisphp{
-    width: 10%;
-    height: 100%;
-    background: green;
-    border-radius: 15px 0px 0px 15px;
+.titleCard{
+    margin: 10px;
+    font-size: 3.5em;
 }
-
-article ul{
+.card i{
+    font-size: 1.5em;
+    
+}
+.card li {
     font-size: 1.3em;
-    list-style: none;
-    text-align: start;
+    font-weight: 600;
+}
+.card p{
+    margin:0.2em 0 0.5em;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: left;
+
+}
+
+footer{
+    border-top: 4px solid;
+    padding: 0.5em;
+    text-align: center;
+}
+.cursor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left:24.1%;
+    top:275px ;
+    padding-bottom: 2px;
+}
+.cursor p{
+    text-align: center;
+}
+.choiceColor{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    position: absolute;
+    top: 230px;
+    right: 150px;
+}
+.choiceMode{
+    display: flex;
+    flex-direction: row-reverse;   
+    border-radius: 20px;
+    position: absolute;
+    top: 230px;
+    right: 50px; 
+}
+.choiceMode i {
+    margin-top:1px;
+}
+.colored{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.jade{
+    background: #246854;
+}
+.crimson{
+    background: #873356;
+}
+.amber{
+    background: #714F19;
+}
+.darkModeChoice{
+    font-size: 1em;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+/* -------------------------------------------------- */
+.cursor:hover{
+    transform: scale(1.2);
+    cursor: grab;
+}
+li:hover{
+    transform: scale(1.2);
+}
+.colored:hover{
+    transform: scale(1.1);
+}
+.contact:hover{
+    transform: scale(1.2);
+}
+/* -------------------------------------------------- */
+.greenBorder{
+    border-color: #1B5745;
+}
+.dark{
+    background: rgb(31, 31, 31);
+    color: white;
+}
+.greenItemDark{
+    background-color: #ADF0D4;
+}
+.greenTextDark{
+    color: #ADF0D4;
+}
+
+.greenBgDark{
+    background: #0F2E22
+}
+
+.greenItemLight{
+    background: #0F2E22 
+}
+.greenTextLight{
+    color: #114837;
+}
+.greenBgLight{
+    background: #ADF0D4;
 }
