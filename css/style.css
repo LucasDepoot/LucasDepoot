@@ -192,6 +192,12 @@ li:hover{
 .contact:hover{
     transform: scale(1.2);
 }
+.choiceColor:hover{
+    cursor: grab;
+}
+.choiceMode:hover{
+    cursor: grab;
+}
 /* -------------------------------------------------- */
 .greenBorder{
     border-color: #1B5745;

@@ -26,18 +26,18 @@ function darkMode(){
         }
         //------------change Item ---------\\
         for(item of colorItemLight ){
-            item.classList.remove("greenItemLight");
-            item.classList.add("greenItemDark");
+            item.classList.remove(color+"ItemLight");
+            item.classList.add(color+"ItemDark");
         }
         //------------change Text ---------\\
         for(item of colorTextLight ){
-            item.classList.remove("greenTextLight");
-            item.classList.add("greenTextDark");
+            item.classList.remove(color+"TextLight");
+            item.classList.add(color+"TextDark");
         }
         //------------change Background cards ---------\\
         for(item of colorBgLight ){
-            item.classList.remove("greenBgLight");
-            item.classList.add("greenBgDark");
+            item.classList.remove(color+"BgLight");
+            item.classList.add(color+"BgDark");
         }
 
     }else{
@@ -50,17 +50,17 @@ function darkMode(){
         }
 
         for(item of colorItemDark ){
-            item.classList.remove("greenItemDark");
-            item.classList.add("greenItemLight");
+            item.classList.remove(color+"ItemDark");
+            item.classList.add(color+"ItemLight");
         }
 
         for(item of colorTextDark ){
-            item.classList.remove("greenTextDark");
-            item.classList.add("greenTextLight");
+            item.classList.remove(color+"TextDark");
+            item.classList.add(color+"TextLight");
         }
         for(item of colorBgDark ){
-            item.classList.remove("greenBgDark");
-            item.classList.add("greenBgLight");
+            item.classList.remove(color+"BgDark");
+            item.classList.add(color+"BgLight");
         }
     };
     // ----------------------------------------------------\\
