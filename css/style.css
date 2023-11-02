@@ -57,6 +57,7 @@ h3{
     align-items: center;
     box-sizing: border-box;
     text-align: center;
+    min-width: 25%;
     max-width: 25%;
     border-right: 4px solid;
     padding: 1em;
@@ -92,14 +93,12 @@ a{
 }
 
 .card{
-    margin-left: 1em;
     border: 3px solid;
     border-radius: 20px;
     padding: 1em;
     text-align: center;
     width: 450px;
     height: 465px;
-    z-index: 1;
 }
 .titleCard{
     margin: 10px;
@@ -118,7 +117,6 @@ a{
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: left;
-
 }
 
 footer{
@@ -130,10 +128,12 @@ footer{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    position: absolute;
-    left:24.1%;
-    top:33% ;
+    border: 1px solid;
     padding-bottom: 2px;
+    margin-top: 3em;
+    align-self: flex-start;
+    background: white;
+    color:black;
 }
 .cursor p{
     text-align: center;
@@ -164,15 +164,19 @@ footer{
     border-radius: 50%;
     text-align: center;
 }
-.jade{
-    background: #246854;
+.green{
+    background: #28684A;
 }
-.crimson{
-    background: #873356;
+.red{
+    background: #8C333A;
 }
-.amber{
-    background: #714F19;
+.yellow{
+    background: #FFE629;
 }
+.blue{
+    background:#205D9E;
+}
+
 .darkModeChoice{
     font-size: 1em;
     box-sizing: border-box;
@@ -199,30 +203,17 @@ li:hover{
     cursor: grab;
 }
 /* -------------------------------------------------- */
-.greenBorder{
-    border-color: #1B5745;
-}
+
 .dark{
     background: rgb(31, 31, 31);
     color: white;
 }
-.greenItemDark{
-    background-color: #ADF0D4;
+.darkText{
+    color: white;
 }
-.greenTextDark{
-    color: #ADF0D4;
+.cardGreen{
+    background:#28684A;
 }
-
-.greenBgDark{
-    background: #0F2E22
-}
-
-.greenItemLight{
-    background: #0F2E22 
-}
-.greenTextLight{
-    color: #114837;
-}
-.greenBgLight{
-    background: #ADF0D4;
+.titleGreen{
+    color :#30A46C;
 }
