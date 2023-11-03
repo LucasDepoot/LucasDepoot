@@ -1,119 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Lucas Depoot</title>
 </head>
+
 <body>
     <div class="container">
         <header>
-        <!--srcset  permettra de choisir l'image en fonction du responsive (voir doc)-->
+            <!--srcset  permettra de choisir l'image en fonction du responsive (voir doc)-->
             <img class="image headerimg" src="img/headerpicturenoglass.jpeg" alt="picture of me" srcset="">
             <div>
                 <h1>Depoot Lucas</h1>
                 <h2>Développeur Web</h4>
             </div>
         </header>
-        <div class="main">
-            <div class="left">
-                <img class="image leftimg" src="img/aboutpicture.jpg" alt="picture of me" srcset="">
-                <ul class="leftUl">
+        <div class="navBar">
+            <div class="socialLink">
+                <ul >
                     <li>
-                        <a  href ="#"><i class="fa-brands fa-linkedin"></i></a><br>
-                        <a  href="#"> Linkedin</a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"> Linkedin</a>
                     </li>
                     <li>
-                        <a  href ="#"><i class="fa-brands fa-github"></i></a><br> 
-                        <a  href="#"> Github</a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"> Github</a>
                     </li>
                     <li>
-                        <a  href ="#"><i class="fa-solid fa-envelope"></i></a><br>
-                        <a  href="#"></i> lucasdepoot@gmail.com</a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#"></i> lucasdepoot@gmail.com</a>
                     </li>
-                </ul> 
-                
-                <div class="about">
-                    <h3 > A propos de moi:</h2> 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus animi sed perferendis quisquam ut molestias quam harum saepe? Incidunt sit nostrum iste praesentium debitis ut quidem nesciunt rem unde vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla, minus voluptate architecto id, excepturi
-                    </p>
-                </div>
+                </ul>
             </div>
-
-            <div class="content">
-
+            <div class="visualOption">
                 <div class="choiceColor">
                     <div class="colored green"></div>
                     <div class="colored red"></div>
                     <div class="colored yellow"></div>
                     <div class="colored blue"></div>
-                </div> 
-
-                <div class="choiceMode ">
-                    <div class="colored darkModeChoice jade">
-                        <i class="fa-solid fa-sun"></i>
-                    </div>
                 </div>
-
-                <div class="card">
-                    <h3 class="titleCard">Hard skills</h2>    
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="card">
+                <img src="img/aboutpicture.jpg" alt="picture of me" srcset="">
+                <h3> A propos de moi:</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus animi sed perferendis
+                        quisquam ut molestias quam harum saepe? Incidunt sit nostrum iste praesentium debitis ut quidem
+                        nesciunt rem unde vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla,
+                        minus voluptate architecto id, excepturi
+                    </p>
+            </div>
+            <div class="card">
+                <h3 class="titleCard">Hard skills</h2>
                     <ul>
-                        
                         <li>
                             <i class="fa-brands fa-square-js"></i><br>
                             Javascript
                         </li>
-                        <p>Essentiel pour créer des sites web interactifs, gérant l'interactivité et la manipulation du contenu. Il permets d'ajouter des fonctionnalités dynamiques aux pages web en reagissant aux actions des utilisateurs</p>
+                        <p>Essentiel pour créer des sites web interactifs, gérant l'interactivité et la manipulation du
+                            contenu. Il permets d'ajouter des fonctionnalités dynamiques aux pages web en reagissant aux
+                            actions des utilisateurs</p>
                         <li>
                             <i class="fa-brands fa-php"></i><br>
                             PHP
                         </li>
-                        <p>Principalement utilisé côté serveur pour créer des sites web dynamiques en traitant les demandes des utilisateurs, interagissant avec les bases de données et générant des pages web dynamiques</p>
-                        
+                        <p>Principalement utilisé côté serveur pour créer des sites web dynamiques en traitant les
+                            demandes des utilisateurs, interagissant avec les bases de données et générant des pages web
+                            dynamiques</p>
+
                         <li>
                             <i class="fa-solid fa-database"></i><br>
                             MySQL
                         </li>
-                        <p>Système de gestion de base de données relationnelle, il stocke, gère et récupère des données. </p>
+                        <p>Système de gestion de base de données relationnelle, il stocke, gère et récupère des données.
+                        </p>
                     </ul>
-                </div>
-                <div class="cursor dark">
-                    <p>&#9650;</p>
-                    <p id="arrow">&#9660;</p>
-                </div>
-                <div class="card">
-                    <h3 class="titleCard">Soft skills</h2>
+            </div>
+            <div class="card">
+                <h3 class="titleCard">Soft skills</h2>
                     <ul>
                         <li>
                             <i class="fa-solid fa-people-group"></i><br>
                             Travail d'équipe
                         </li>
-                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
+                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement
+                            de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
                         <li>
                             <i class="fa-solid fa-puzzle-piece"></i><br>
                             Adaptabilité
                         </li>
-                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever divers défis et de trouver des solutions dans mon travail.</p>
+                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
+                            divers défis et de trouver des solutions dans mon travail.</p>
                         <li>
                             <i class="fa-solid fa-spa"></i><br>
                             Gestion du stress
                         </li>
-                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant ainsi des livraisons à temps malgré des échéances courtes.</p>
+                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant
+                            ainsi des livraisons à temps malgré des échéances courtes.</p>
                     </ul>
-                </div>
-            </div>  
-        </div>
-        <footer>
-            <div class="contact">
-                <a  href="#">Contactez moi : lucasdepoot@gmail.com</a>
             </div>
-        </footer>
+            <div class="card">
+                <h3 class="titleCard">Soft skills</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-people-group"></i><br>
+                            Travail d'équipe
+                        </li>
+                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement
+                            de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
+                        <li>
+                            <i class="fa-solid fa-puzzle-piece"></i><br>
+                            Adaptabilité
+                        </li>
+                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
+                            divers défis et de trouver des solutions dans mon travail.</p>
+                        <li>
+                            <i class="fa-solid fa-spa"></i><br>
+                            Gestion du stress
+                        </li>
+                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant
+                            ainsi des livraisons à temps malgré des échéances courtes.</p>
+                    </ul>
+            </div>
+            <div class="card">
+                <h3 class="titleCard">Soft skills</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-people-group"></i><br>
+                            Travail d'équipe
+                        </li>
+                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement
+                            de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
+                        <li>
+                            <i class="fa-solid fa-puzzle-piece"></i><br>
+                            Adaptabilité
+                        </li>
+                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
+                            divers défis et de trouver des solutions dans mon travail.</p>
+                        <li>
+                            <i class="fa-solid fa-spa"></i><br>
+                            Gestion du stress
+                        </li>
+                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant
+                            ainsi des livraisons à temps malgré des échéances courtes.</p>
+                    </ul>
+            </div>
+            <div class="card">
+                <h3 class="titleCard">Soft skills</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-people-group"></i><br>
+                            Travail d'équipe
+                        </li>
+                        <p>Dans mes précédents emplois, le travail d'équipe était essentiel pour le bon fonctionnement
+                            de l'entreprise, grâce à l'entraide, la communication et l'organisation.</p>
+                        <li>
+                            <i class="fa-solid fa-puzzle-piece"></i><br>
+                            Adaptabilité
+                        </li>
+                        <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
+                            divers défis et de trouver des solutions dans mon travail.</p>
+                        <li>
+                            <i class="fa-solid fa-spa"></i><br>
+                            Gestion du stress
+                        </li>
+                        <p>Ma capacité à gérer le stress m'a permis de rester calme même sous pression, garantissant
+                            ainsi des livraisons à temps malgré des échéances courtes.</p>
+                    </ul>
+            </div>
+        </div>
+        <div class="credits">
+            <p>Designed by <a href="www.freepik.com">Freepik</a></p>
+        </div>
     </div>
     <script src="https://kit.fontawesome.com/e3be26a94a.js" crossorigin="anonymous"></script>
     <script src="javascript/colorMode.js"></script>
-    <script src="javascript/darkMode.js"></script>
 </body>
+
 </html>

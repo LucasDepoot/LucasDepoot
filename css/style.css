@@ -1,105 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=Shadows+Into+Light&display=swap');
-
-body{
-    overflow: hidden;
-    overflow-y: hidden;
-}
 .container{
-    height: 100vh;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    background: url(../img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus.jpg) no-repeat ;
+    background-size:cover;
 }
-
 header{
-    max-height: 25%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    border-bottom: 4px solid;
-    padding: 1em;
+    padding:1em 2em;
 }
-
-.headerimg{
-    margin-right: 3em;
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    padding-right: 2em;
 }
-
-.image{
+.socialLink{
+    width: 75%;
+}
+.socialLink ul{
+    display: flex;
+    justify-content:space-around ;
+   padding: 1em;
+}
+.socialLink li{
+    font-size: 1.3em;
+}
+.visualOption{
+    display: flex;
+    padding-top :5px;
+}
+img{
     border-radius: 50%;
+    max-width: 250px;
+    max-height: 185px;
 }
 h1{
     font-size: 5em;
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 0.3em;
     font-weight: 600;
+    
 }
 h2{
     font-size: 3em;
-    margin:1em 0;;
+    margin:1em 0;
+    
 }
 h3{
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 0.1em;
     font-size: 2.5em;
     margin: 0.5em 0;
+    
 }
 .main{
     display: flex;
-    flex: 1;
-}
-.left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: center;
-    min-width: 25%;
-    max-width: 25%;
-    border-right: 4px solid;
-    padding: 1em;
-    font-size: 1.2em;
-}
-.leftUl{
-    margin-top: 1em;
-    border: 2px solid;
-    border-radius: 20px;
-    padding: 0.5em 2em;  
-}
-.left li{
-    margin-bottom: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
     color: black;
 }
-.left p{
-    text-align: left;
-}
-.leftimg{
-   max-width: 60%;
-}
 
-.content{
-    padding: 1em;
-    width: 75%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-}
 
 .card{
-    border: 3px solid;
     border-radius: 20px;
     padding: 1em;
     text-align: center;
     width: 450px;
     height: 465px;
+    flex-wrap: wrap;
+    margin:4em 0 2em;
 }
+
 .titleCard{
     margin: 10px;
     font-size: 3.5em;
@@ -119,40 +101,19 @@ a{
     text-align: left;
 }
 
-footer{
-    border-top: 4px solid;
+.credits{
     padding: 0.5em;
-    text-align: center;
-}
-.cursor{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid;
-    padding-bottom: 2px;
-    margin-top: 3em;
-    align-self: flex-start;
-    background: white;
-    color:black;
-}
-.cursor p{
-    text-align: center;
 }
 .choiceColor{
     display: flex;
     flex-direction: row-reverse;
     border-radius: 20px;
-    position: absolute;
-    top: 27%;
-    right: 8%;
 }
+
 .choiceMode{
     display: flex;
     flex-direction: row-reverse;   
     border-radius: 20px;
-    position: absolute;
-    top: 27%;
-    right: 3%; 
 }
 .choiceMode i {
     margin-top:1px;
@@ -176,12 +137,6 @@ footer{
 .blue{
     background:#205D9E;
 }
-
-.darkModeChoice{
-    font-size: 1em;
-    box-sizing: border-box;
-    padding-top: 5px;
-}
 /* -------------------------------------------------- */
 .cursor:hover{
     transform: scale(1.2);
@@ -203,17 +158,22 @@ li:hover{
     cursor: grab;
 }
 /* -------------------------------------------------- */
+.blueBackground{
+    background: #113264;
+}
+.blueCard{
+    background: rgb(13,116,206);
+    background: radial-gradient(circle, rgba(13,116,206,1) 0%, rgba(94,177,239,1) 100%);
+}
+.blueNav{
+    background: rgb(5,136,240);
+    background: linear-gradient(90deg, rgba(5,136,240,1) 0%, rgba(142,200,246,1) 50%, rgba(5,136,240,1) 100%);
+}
+.blueH1{
+    color:#205D9E;
+}
+.blueH2{
+    color:#8ec8f6;
+    text-shadow: 1px 1px #bbdbf6;
+}
 
-.dark{
-    background: rgb(31, 31, 31);
-    color: white;
-}
-.darkText{
-    color: white;
-}
-.cardGreen{
-    background:#28684A;
-}
-.titleGreen{
-    color :#30A46C;
-}
