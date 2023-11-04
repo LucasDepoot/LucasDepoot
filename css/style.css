@@ -11,6 +11,7 @@ body{
     box-sizing: border-box;
     background: url(../img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus.jpg) no-repeat ;
     background-size:cover;
+    width: 100vw;
 }
 header{
     box-sizing: border-box;
@@ -244,5 +245,81 @@ li:hover{
     display: flex;
     justify-content: space-around;
     margin: 150px auto;
-
+}
+@media screen and (max-width : 680px){
+    .container{
+        width: 100%;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5em 1em;
+    }
+    .socialLink li{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width : 575px){
+    .container{
+        width: 100%;
+    }
+    .navBar{
+        width: 35%;
+        flex-direction: column;
+        margin: 0 auto;
+        border-radius: 25px;
+        position: inherit;
+    }
+    .socialLink ul{
+        display: inline;
+        padding: 10px;
+    }
+    .visualOption{
+        position: relative;
+        bottom:170px;
+        left: 25px;
+    }
+    .card{
+        width: 95vw;
+        border-radius: 0;
+        margin: 20px auto;
+        padding: 10px;
+        height: 630px;
+    }
+    .card p {
+        padding: 1em;
+    }
+}
+@media screen and (max-width : 500px){
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    img{
+      width: 200px;  
+    }
+    .colored{
+        width: 20px;
+        height: 20px;
+    }
+    .choiceColor{
+        position: relative;
+        bottom: 15px;
+    }
+    .navBar li{
+        font-size: 1em;
+    }
+    p{
+        font-size :0.8em;
+    }
+    .card h3{
+        font-size: 1.8em;
+    }
+    .card p{
+        font-size: 1em;
+    }
+    
 }
