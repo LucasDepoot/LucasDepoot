@@ -1,188 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Lucas Depoot</title>
-</head>
-
-<body>
-    <div class="container">
-        <header>
-            <!--srcset  permettra de choisir l'image en fonction du responsive (voir doc)-->
-            <img class="image headerimg" src="img/headerpicturenoglass.jpeg" alt="picture of me" srcset="">
-            <div>
-                <h1>Depoott Lucas</h1>
-                <h2>Developpeur Web React</h4>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="index.js" defer></script>
+        <title>Lucas Depoot</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a id="nav_about" class="active_section" href="#about">A propos</a></li>
+                <li><a id="nav_skill" href="#skills">Compétences</a></li>
+                <li><a id="nav_project" href="#projets">Projets</a></li>
+                <li><a href="mailto:lucasdepoot@gmail.com">Contactez-moi</a></li>
+            </ul>
+        </nav>
+        <div id="about">
+            <h1>Lucas Depoot</h1>
+            <div id="about_detail">
+                <img src="/Assets/Picture_Lucas.jpg" alt="Photo de Lucas Depoot">
+                <div id="about_detail_text">
+                    <h2>Développeur Web Full Stack</h2>
+                    <p>Développeur passionné, toujours avide d'apprendre et de progresser dans le monde du développement, je suis constamment à la recherche de nouvelles compétences. Aussi bien attiré par le Back-end que le Front-end, j'affine ma maîtrise des technologies à travers mes projets personnels. Actuellement, je recherche un poste au sein d'une entreprise dynamique où je pourrais relever des défis stimulants et enrichissants au quotidien.</p>
+                </div>
             </div>
-        </header>
-        <div class="navBar">
-            <div class="socialLink">
-                <ul >
+                <ul>
                     <li>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.linkedin.com/in/lucas-depoot"target="_blank"> Linkedin</a>
+                        <a href="https://github.com/LucasDepoot"><img src="/Assets/github.svg" alt="">Github</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://github.com/LucasDepoot" target="_blank"> Github</a>
+                        <a href="https://www.linkedin.com/in/lucas-depoot/"><img src="/Assets/linkedin.svg" alt="">Linkedin</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="mailto:lucasdepoot@gmail.com"></i> lucasdepoot@gmail.com</a>
+                        <a href="mailto:lucasdepoot@gmail.com"><img src="/Assets/envelope-regular.svg" alt="">Mail</a>
                     </li>
                 </ul>
-            </div>
-            <div class="visualOption">
-                <div class="choiceColor">
-                    <div class="colored green"></div>
-                    <div class="colored red"></div>
-                    <div class="colored yellow"></div>
-                    <div class="colored blue"></div>
-                </div>
-            </div>
-            
         </div>
-        <div class="main">
-            <div class="card">
-                <img src="img/aboutpicture.jpg" alt="picture of me" srcset="">
-                <h3> A propos de moi:</h2>
-                    <p>
-                        L'informatique a bercé mon enfance, bien que j'aie d'abord exploré des métiers manuels. La découverte du développement informatique, initialement comme passe-temps, m'a ouvert les yeux sur le monde captivant de la programmation et ses innombrables possibilités. Suite à une réflexion approfondie, j'ai choisi de me reconvertir professionnellement dans ce domaine qui me passionne.
-                    </p>
+        <h2 id="skills">Compétences</h2>
+        <div id="skill">
+            <div class="skill_detail">
+                <h3>Langages utilisés</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                </ul>
             </div>
-            <div class="card">
-                <h3 class="titleCard">Hard skills</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-brands fa-square-js"></i><br>
-                            Javascript
-                        </li>
-                        <p>Essentiel pour créer des sites web interactifs, gérant l'interactivité et la manipulation du
-                            contenu. Il permets d'ajouter des fonctionnalités dynamiques aux pages web en reagissant aux
-                            actions des utilisateurs</p>
-                        <li>
-                            <i class="fa-brands fa-php"></i><br>
-                            PHP
-                        </li>
-                        <p>Principalement utilisé côté serveur pour créer des sites web dynamiques en traitant les
-                            demandes des utilisateurs, interagissant avec les bases de données et générant des pages web
-                            dynamiques</p>
+            <div class="skill_detail">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Symfony</li>
+                    <li>Tailwind CSS</li>
+                </ul>                
+            </div>
+            <div class="skill_detail">
+                <h3>Environnements</h3>
+                <ul>
+                    <li>Linux</li>
+                    <li>Windows</li>
+                    <li>Git / Github</li>
+                    <li>Terminal</li>
+                    <li>Visual Studio Code</li>
+                </ul>                
+            </div>                        
+        </div>
+        <h2 id="projets">Projets</h2>
+        <div id="projets_container">
 
-                        <li>
-                            <i class="fa-solid fa-database"></i><br>
-                            MySQL
-                        </li>
-                        <p>Système de gestion de base de données relationnelle, il stocke, gère et récupère des données.
-                        </p>
-                    </ul>
-            </div>
-            <div class="card">
-                <h3 class="titleCard">Soft skills</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-people-group"></i><br>
-                            Travail d'équipe
-                        </li>
-                        <p>Dans mes emplois précédents, le travail d'équipe jouait un rôle crucial pour l'efficacité de l'entreprise, s'appuyant sur l'entraide, la communication et une bonne organisation.</p>
-                        <li>
-                            <i class="fa-solid fa-puzzle-piece"></i><br>
-                            Adaptabilité
-                        </li>
-                        <p>La résolution de problèmes exige de l'adaptabilité, compétence qui m'a permis de surmonter divers défis et de trouver des solutions efficaces dans mon travail.</p>
-                        <li>
-                            <i class="fa-solid fa-spa"></i><br>
-                            Gestion du stress
-                        </li>
-                        <p>Ma maîtrise de la gestion du stress m'a toujours permis de conserver mon calme, assurant ainsi le respect des délais de livraison, y compris lorsqu'ils sont serrés.</p>
-                    </ul>
-            </div>
-            <div class="card">
-                <h3 class="titleCard">Frameworks</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-brands fa-bootstrap"></i><br>
-                            Bootstrap
-                        </li>
-                        <p>
-                            Bootstrap est un framework HTML, CSS et JS pour développer des interfaces web réactives. Il offre des composants d'interface prêts à l'emploi pour la mise en forme.</p>
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass"></i><br>
-                           Choix du prochain framework en cours
-                         </li>
-                        <!-- <p>Symfony est un framework PHP robuste et modulaire utilisé pour construire des applications web complexes et évolutives .</p>-->
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass"></i><br>
-                            Choix du prochain framework en cours
-                           <!-- React
-                        </li>
-                        <p>React est une bibliothèque JavaScript open-source conçue pour créer des interfaces utilisateur interactives.</p> -->
-                    </ul>
-            </div>
-            <div class="card">
-                <h3 class="titleCard">Projects</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass"></i><br>
-                            Reconversion en cours
-                        </li>
-                        <p>En pleine reconversion professionnelle, je me concentre actuellement sur l'assimilation de connaissances afin de pouvoir proposer de beaux projets à l'avenir. </p>
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass"></i><br>
-                            Futur projet en attente
-                        </li>
-                        <!-- <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
-                            divers défis et de trouver des solutions dans mon travail.</p> -->
-                        <li>
-                            <i class="fa-solid fa-magnifying-glass"></i><br>
-                            Futur projet en attente
-                        </li>
-                        <!-- <p>Résoudre des problèmes demande de l'adaptabilité. Cette compétence m'a permis de relever
-                            divers défis et de trouver des solutions dans mon travail.</p> -->
-                    </ul>
-            </div>
-            <div class="card">
-                <h3 class="titleCard">Jobs</h2>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-sailboat"></i><br>
-                            Corsil
-                        </li>
-                        <p>Entreprise d'entretien et de location de bateaux en Corse où j'ai effectué l'entretien et les réparations.</p>
-                        <li>
-                            <i class="fa-solid fa-plane"></i><br>
-                            LISI Aerospace
-                        </li>
-                        <p>Entreprise d'aeronautique dans laquelle j'ai occupé le poste de fraiseur sur machine à commandes numériques pour fabriquer des pieces d'avion</p>
-                        <li>
-                            <i class="fa-solid fa-o"></i><br>
-                            O'clock
-                        </li>
-                        <p>Entreprise de formation où je suis actuellement en train de suivre un cursus pour ma reconversion professionnelle.</p>
-                    </ul>
-            </div>
-        </div>
-        <div class="credits">
-            <p>Designed by <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
-        </div>
-        <div class="newVisit">
-            <div class="newVisitContent">
-                <div class="choiceColorFirst">
-                    <div class="colored green"></div>
-                    <div class="colored red"></div>
-                    <div class="colored yellow"></div>
-                    <div class="colored blue"></div>
+            <div class="projet">
+                <div class="projet_title">
+                    <h3>Bric'O Déc'O</h3>
+                    <img src="/Assets/Logo_Brico.png" alt="">
                 </div>
+                <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+                <p>Projet de fin de formation en Développement Web et Web Mobile chez O'clock, réalisé au sein d'une équipe de quatre personnes où j'ai pris en charge la partie Front-end du projet. Le site avait pour objectif de permettre la consultation de tutoriels de bricolage et de décoration pour embellir son intérieur. En plus de cette fonctionnalité, les utilisateurs pouvaient créer un compte pour partager leurs propres tutoriels et ainsi en faire profiter la communauté.</p>        
+            </div>
+
+            <div class="projet">
+                <div class="projet_title">
+                    <h3>En cours de développement </h3>
+                    <img src="/Assets/Encours.png" alt="">
+                </div>
+                <ul>
+                    <li>React</li>
+                    <li>Symfony</li>
+                </ul>
+                <p>Projet personnel full stack permettant d'organiser des repas, de préparer une liste de courses ainsi que de gérer les aliments présents chez soi. Afin de répondre à un besoin organisationnel et de réduire le gaspillage alimentaire.</p>        
             </div>
         </div>
-    </div>
-    <script src="https://kit.fontawesome.com/e3be26a94a.js" crossorigin="anonymous"></script>
-    <script src="javascript/colorMode.js"></script>
-    <script src="javascript/firstVisit.js"></script>
-</body>
-
+        <footer>
+            <p>☺ Développé par Lucas Depoot ☺</p>
+        </footer>
+    </body>
 </html>
