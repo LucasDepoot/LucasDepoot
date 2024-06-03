@@ -5,7 +5,6 @@
 function position(){
     // Recuperation position scroll
     const scroller = window.scrollY
-    console.log(scroller);
     let sectionActive = "about";
     if (scroller>=480 && scroller<900){
         sectionActive = "skill";
@@ -14,6 +13,7 @@ function position(){
     }else {
         sectionActive = "about";
     }
+    //Ajout classe section active suppression non active section
     if (sectionActive === "about"){
         navElementAbout.classList.add("active_section");
         navElementSkill.classList.remove("active_section");
