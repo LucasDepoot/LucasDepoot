@@ -9,12 +9,13 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    margin: 60,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
+    Width: 80,
   },
   introImageContainer: {
     margin: 10,
