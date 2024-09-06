@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/lucas-depoot/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/LucasDepoot"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:lucasdepoot@gmail.com"
+        }
+    ]
+}

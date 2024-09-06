@@ -1,0 +1,31 @@
+{
+    "experiences": [
+        {
+            "title": "Developpeur Front End",
+            "subtitle": "Bric'O Déc'O",
+            "workType": "Projet de fin de formation",
+            "workDescription": [
+                "Conception et développement 'from scratch' d'un site permettant aux utilisateurs de consulter et partager des tutoriels."
+            ],
+            "dateText": "01/2024 – 02/2024"
+        },
+        {
+            "title": "Fraiseur sur machine à commande numérique",
+            "subtitle": "Lisi",
+            "workType": "Aerospace",
+            "workDescription": [
+                "Fraisage de pièces pour l'aéronautique."
+            ],
+            "dateText": "2016 – 2024"
+        },
+        {
+            "title": "Employé polyvalent en nautisme",
+            "subtitle": "Corsil",
+            "workType": "Alternance",
+            "workDescription": [
+                "Réparation et entretien d'embarcations de plaisance."
+            ],
+            "dateText": "2012 – 2015"
+        }
+    ]
+}

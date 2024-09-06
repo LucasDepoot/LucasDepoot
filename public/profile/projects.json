@@ -1,0 +1,57 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/BricoDeco.png",
+            "title": "Bric'O Déc'O",
+            "bodyText": "-  Développement avec React et Symfony\n -  Site permettant aux utilisateurs de consulter et partager des tutoriels\n - Upload d'images",
+            "links": [
+                {
+                    "text": "Non disponible",
+                    "href": "#"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Redux",
+                "Symfony",
+                "Fin de formation",
+                "Travail d'équipe"
+            ]
+        },
+        {
+            "image" : "images/projects/Marc.png",
+            "title": "MARC -  Manager de cuisine",
+            "bodyText": "- Développement avec React et Symfony\n - Gestion d'un garde-manger\n - Gestion d'une liste de recettes \n - Creation d'une liste de courses",
+            "links": [
+                {
+                    "text": "En cours de développement",
+                    "href": "#"
+                }
+            ],
+            "tags" : [
+                "Projet Solo",
+                "Fullstack",
+                "React",
+                "Symfony",
+                "En cours"
+            ]
+        },
+        {
+            "image" : "images/projects/waiting.png",
+            "title": "Prochainement",
+            "bodyText": "- Prochainement\n - Prochainement \n - Prochainement\n - Prochainement" ,
+            "links": [
+                {
+                    "text": "Prochainement",
+                    "href": "#"
+                }
+            ],
+            "tags" : [
+                "Prochainement",
+                "Prochainement",
+                "Prochainement",
+                "Prochainement"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "intro": "J'aime apprendre de nouvelles choses et expérimenter avec de nouvelles technologies.\nVoici les principaux langages de programmation, technologies, outils et plateformes avec lesquels j'ai travaillé:",
+    "skills": [{
+     
+            "title": "Langages & Bases de Données",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                },
+                {
+                    "icon": "images/skills/Tailwind_Css.png",
+                    "title": "TailwindCSS"
+                }
+            ]
+        },
+        {
+            "title" : "Outils & Plateformes",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                }
+            ]
+    }
+]}
