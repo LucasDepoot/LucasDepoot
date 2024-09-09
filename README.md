@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Lucas Depoot</h1>
+
 # 💫 About Me:
 I am a passionate developer currently looking for new opportunities. <br> I enjoy working on both front-end and back-end development. <br>I love learning new technologies and solving complex problems.
 
