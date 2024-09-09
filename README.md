@@ -1,6 +1,6 @@
 # Lucas Depoot
-# 💫 A propos de moi:
-I am a passionate developer currently looking for new opportunities. <br> I enjoy working on both front-end and back-end development. <br>I love learning new technologies and solving complex problems.
+# 💫 About me:
+:computer:I am a passionate developer currently looking for new opportunities. <br>:notebook: I enjoy working on both front-end and back-end development. <br>:rocket:I love learning new technologies and solving complex problems.
 
 
 ## 🌐 Socials:
